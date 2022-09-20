@@ -2,7 +2,7 @@
   "name": "ida_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/idakukimiya/Ida_REACTportfolio",
+  "homepage": "https://idakukimiya.github.io/Ida_REACTportfolio",
   "dependencies": {
     "gh-pages": "^4.0.0",
     "react": "^16.6.0",
