@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/idakukimiya/Ida_REACTportfolio/precache-manifest.6c9b172f57bf34c0ade945fbd250aad6.js"
+  "/Ida_REACTportfolio/precache-manifest.ca23fb2c935621c82f54e1924f092a3e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/idakukimiya/Ida_REACTportfolio/index.html", {
+workbox.routing.registerNavigationRoute("/Ida_REACTportfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
