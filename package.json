@@ -2,19 +2,18 @@
   "name": "ida_portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/idakukimiya/Ida_REACTportfolio",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^0.27.2",
-    "bootstrap": "^5.2.1",
-    "dotenv": "^16.0.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "gh-pages": "^4.0.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "2.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -22,20 +21,15 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
+      "not ie <= 11",
       "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
     ]
   }
 }
