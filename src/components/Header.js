@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom"
-import NavBar from "../NavBar";
+import NavTab from "../NavTab";
 
 function Header() {
 
@@ -11,7 +11,7 @@ function Header() {
         <Link to="/">Ida Kukimiya</Link>
         </h1>
       </div>
-      <NavBar></NavBar>
+      <NavTab></NavTab>
     </header>
   );
 }
