@@ -1,22 +1,45 @@
 import React from 'react';
 
-export default function Contact() {
+export default function Contact({ input, handleChange, handleSubmit }) {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <h1>Contact Me!</h1>
+      <form onSubmit={handleSubmit}>
+        <div className="input-group my-4">
+          <label htmlFor="name-input" className="mx-3">Name</label>
+          <input
+            type="text"
+            placeholder="ex: John Kim"
+            value={input.name}
+            name="name"
+            className="name-input me-2"
+            onChange={handleChange}
+          ></input>
+        </div>
+        <div className="input-group my-4">
+          <label htmlFor="name-input" className="mx-3">Email</label>
+          <input
+            type="text"
+            placeholder="ex: bobross@gmail.com"
+            value={input.email}
+            name="email"
+            className="email-input me-2"
+            onChange={handleChange}
+          ></input>
+        </div>
+        <div className="input-group mb-3">
+          <label htmlFor="name-input" className="mx-3">Message</label>
+          <textarea
+            placeholder="Type your message here"
+            value={input.message}
+            name="message"
+            aria-label="message"
+            className="form-control me-2"
+            onChange={handleChange}
+          ></textarea>
+        </div>
+        <button className="btn btn-primary m-3">Send Message</button>
+      </form>
     </div>
   );
 }
