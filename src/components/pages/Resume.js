@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../resume/Ida_Resume.pdf'
+import resume from './resume/Ida_Resume.pdf'
 
 export default function Home() {
   return (
