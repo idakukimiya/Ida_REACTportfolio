@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Ida_REACTportfolio/static/css/main.9bd7a35e.css",
+    "main.js": "/Ida_REACTportfolio/static/js/main.d9bae3b3.js",
+    "static/media/Ida_Resume.pdf": "/Ida_REACTportfolio/static/media/Ida_Resume.16724e0c5c519a693a19.pdf",
+    "static/media/profilepic.jpg": "/Ida_REACTportfolio/static/media/profilepic.967c72f2daa239481ca8.jpg",
+    "static/media/Octocat.jpg": "/Ida_REACTportfolio/static/media/Octocat.2444c54fd88ae684e5a7.jpg",
+    "static/media/linkedin-icon.png": "/Ida_REACTportfolio/static/media/linkedin-icon.6892b3ae328c7a1e055f.png",
+    "index.html": "/Ida_REACTportfolio/index.html",
+    "main.9bd7a35e.css.map": "/Ida_REACTportfolio/static/css/main.9bd7a35e.css.map",
+    "main.d9bae3b3.js.map": "/Ida_REACTportfolio/static/js/main.d9bae3b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bd7a35e.css",
+    "static/js/main.d9bae3b3.js"
+  ]
+}
