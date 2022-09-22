@@ -4,7 +4,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="navbar">
       <h1 className="m-2">
-        Freddy Kwak's Portfolio
+        Ida Kukimiya
       </h1>
       <ul className="nav d-flex justify-content-end">
         <li className="nav-item">
