@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Ida_REACTportfolio/static/css/main.608de54c.css",
+    "main.js": "/Ida_REACTportfolio/static/js/main.d89d6ddc.js",
+    "static/media/generator.jpg": "/Ida_REACTportfolio/static/media/generator.8cea0ea17401d0961ea8.jpg",
+    "static/media/Ida_Resume.pdf": "/Ida_REACTportfolio/static/media/Ida_Resume.16724e0c5c519a693a19.pdf",
+    "static/media/arthub.png": "/Ida_REACTportfolio/static/media/arthub.47816114132af9fa98da.png",
+    "static/media/profilepic.jpg": "/Ida_REACTportfolio/static/media/profilepic.967c72f2daa239481ca8.jpg",
+    "static/media/Octocat.jpg": "/Ida_REACTportfolio/static/media/Octocat.2444c54fd88ae684e5a7.jpg",
+    "static/media/GTC3.png": "/Ida_REACTportfolio/static/media/GTC3.feef6b0efe2af1999645.png",
+    "static/media/pwgenerator.png": "/Ida_REACTportfolio/static/media/pwgenerator.d339fb497dcf5836f7a7.png",
+    "static/media/WDS.png": "/Ida_REACTportfolio/static/media/WDS.5a4de7499355b0928ad6.png",
+    "static/media/linkedin-icon.png": "/Ida_REACTportfolio/static/media/linkedin-icon.6892b3ae328c7a1e055f.png",
+    "static/media/contact.jpg": "/Ida_REACTportfolio/static/media/contact.7c41d4949157af1a0c56.jpg",
+    "index.html": "/Ida_REACTportfolio/index.html",
+    "main.608de54c.css.map": "/Ida_REACTportfolio/static/css/main.608de54c.css.map",
+    "main.d89d6ddc.js.map": "/Ida_REACTportfolio/static/js/main.d89d6ddc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.608de54c.css",
+    "static/js/main.d89d6ddc.js"
+  ]
+}
