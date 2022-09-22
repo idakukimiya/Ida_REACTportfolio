@@ -3,18 +3,18 @@ import React, {useState} from "react";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import PortfolioContainer from "./Components/PortfolioContainer";
-import About from './Components/pages/About';
+import AboutMe from './Components/pages/AboutMe';
 import Portfolio from './Components/pages/Portfolio';
 import Contact from './Components/pages/Contact';
 import Resume from './Components/pages/Resume';
 
 function App () {
 
-    const [currentPage, setCurrentPage]= useState('About');
+    const [currentPage, setCurrentPage]= useState('AboutMe');
 
     const renderPage = () => {
-        if(currentPage === 'About') {
-            return<About/>;
+        if(currentPage === 'AboutMe') {
+            return<AboutMe/>;
         }
         if(currentPage === 'Portfolio') {
             return<Portfolio/>

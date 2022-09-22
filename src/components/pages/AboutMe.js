@@ -1,10 +1,10 @@
 import React from 'react';
 import profileImage from '../assets/image/profilepic.jpg'
 
-export default function About() {
+export default function AboutMe() {
   return (
     <div>
-      <h1>About</h1>
+      <h1>About Me</h1>
       <div>
       <div className="d-flex justify-content-center">
         <img alt="Ida at the beach" src={profileImage} ></img>
