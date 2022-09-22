@@ -1,17 +1,18 @@
 import React from 'react';
+import profileImage from '../assets/image/profilepic.jpg'
 
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
+      <div>
+      <div className="d-flex justify-content-center">
+        <img alt="Freddy Smiling on a Bridge" src={profileImage} ></img>
+      </div>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      Kon'nichiwa, my name is Ida Kukimiya, I am an aspiring fullstack web developer, currently attending the UPENN LPS Coding Bootcamp. Once I am in the industry, my future development is to contiune my education in Computer Science. I am interested in one day developing my own game or get into cyber security.
       </p>
+      </div>
     </div>
   );
 }
