@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
-import AboutMe from './pages/AboutMe';
-import Portfolio from './pages/Portfolio';
-import Project from './Project';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
-import Footer from './Footer';
+import NavTabs from '../NavTabs';
+import AboutMe from './AboutMe';
+import Portfolio from './Portfolio';
+import Project from '../Project';
+import Resume from './Resume';
+import Contact from './Contact';
+import Footer from '../Footer';
 
-export default function Header() {
+export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
   const [input, setInput] = useState({
     name: '',
