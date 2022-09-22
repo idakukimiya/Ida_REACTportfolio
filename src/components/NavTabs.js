@@ -3,7 +3,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="navbar">
-      <h1 className="m-2">
+      <h1 className="m-2 text-white">
         Ida Kukimiya
       </h1>
       <ul className="nav d-flex justify-content-end">

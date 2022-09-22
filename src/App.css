@@ -9,7 +9,7 @@ li {
 }
 
 p, label, .nav-item {
-  font-size: 1.25rem;
+  font-size: 2rem;
   text-decoration: none;
 }
 .allheaders {
@@ -23,7 +23,7 @@ p, label, .nav-item {
 
 .footericons:hover {
   transition-duration: 0.5s;
-  background-color: rgb(219, 238, 255);
+  background-color: rgb(111, 175, 231);
   padding: 8px;
 }
 
@@ -33,7 +33,7 @@ p, label, .nav-item {
 }
 
 .navbar {
-  background-color: cornflowerblue;
+  background-color: rgb(83, 34, 34);
 }
 
 .footer {

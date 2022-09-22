@@ -1,7 +1,7 @@
 import React from 'react';
 import GTC3 from './image/GTC3.png';
 import arthub from './image/arthub.png';
-import README from './image/generator.jpg';
+import README from './image/contact.jpg';
 import WDS from './image/WDS.png';
 import allyform from './image/contact.jpg';
 import pwgenerator from './image/pwgenerator.png';
@@ -73,19 +73,19 @@ export default function Project() {
                         <h5 className="allheaders">{projArray[3].title}</h5>
                         <a href={projArray[3].deployedLink} target="blank"><img alt={projArray[3].projImgAlt} src={WDS} className="projImg img-fluid"></img></a>
                         <br />
-                        <a href={projArray[3].gitRepo}><button className="btn btn-primary">For Project Info</button></a>
+                        <a href={projArray[3].gitRepo}><button className="btn btn-success">For Project Info</button></a>
                     </div>
                     <div className="col">
                         <h6 className="allheaders">{projArray[4].title}</h6>
                         <a href={projArray[4].deployedLink} target="blank"><img alt={projArray[4].projImgAlt} src={allyform} className="projImg img-fluid"></img></a>
                         <br />
-                        <a href={projArray[4].gitRepo}><button className="btn btn-primary">For Project Info</button></a>
+                        <a href={projArray[4].gitRepo}><button className="btn btn-secondary">For Project Info</button></a>
                     </div>
                     <div className="col">
                         <h7 className="allheaders">{projArray[5].title}</h7>
                         <a href={projArray[5].deployedLink} target="blank"><img alt={projArray[5].projImgAlt} src={pwgenerator} className="projImg img-fluid"></img></a>
                         <br />
-                        <a href={projArray[5].gitRepo}><button className="btn btn-primary">For Project Info</button></a>
+                        <a href={projArray[5].gitRepo}><button className="btn btn-dark">For Project Info</button></a>
                     </div>
                 </div>
             </div>
