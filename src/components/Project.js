@@ -1,48 +1,45 @@
 import React from 'react';
-import gitthatmoney from './images/GitThatMoney_SS.PNG';
-import foodfreqs from './images/foodfreqs_ss.png';
-import thetechblog from './images/thetechblog_ss.png';
-import jate from './images/jate_ss.png';
-import workday from './images/workdayscheduler_ss.png';
-import pwgenerator from './images/passwordgenerator_ss.PNG';
+import GTC3 from './image/GTC3.png';
+import arthub from './image/arthub.png';
+import README from './image/generator.jpg';
+import WDS from './image/WDS.png';
+import allyform from './image/contact.jpg';
+import pwgenerator from './images/pwgenerator.png';
 
 export default function Project() {
     const projArray = [
         {
-            title: 'Git That Money',
-            projImgAlt: 'Git That Money Screenshot',
-            deployedLink: 'https://fredkk22.github.io/GitThatMoney/',
-            gitRepo: 'https://github.com/fredkk22/GitThatMoney/'
+            title: 'Git That Currency',
+            projImgAlt: 'G.T.C Screenshot',
+            deployedLink: 'https://idakukimiya.github.io/GitThatCurrency3/',
+            gitRepo: 'https://github.com/idakukimiya/GitThatCurrency3'
         },
         {
-            title: 'FoodFREQs',
-            projImgAlt: 'FoodFREQs Screenshot',
-            deployedLink: 'https://vast-sierra-04127.herokuapp.com/',
-            gitRepo: 'https://github.com/fredkk22/foodFREQS/'
+            title: 'arthub',
+            projImgAlt: 'arthub Screenshot',
+            deployedLink: 'https://blooming-refuge-04139.herokuapp.com/',
+            gitRepo: 'https://github.com/idakukimiya/arthub'
         },
         {
-            title: 'The Tech Blog',
-            projImgAlt: 'The Tech Blog Screenshot',
-            deployedLink: 'https://afternoon-fortress-24190.herokuapp.com/',
-            gitRepo: 'https://github.com/fredkk22/The-Tech-Blog/'
+            title: 'README Generator',
+            projImgAlt: 'README Generator Screenshot',
+            gitRepo: 'https://github.com/idakukimiya/README_generator'
         },
         {
-            title: 'Just Another Text Editor (J.A.T.E.)',
-            projImgAlt: 'J.A.T.E. Screenshot',
-            deployedLink: 'https://hidden-woodland-12119.herokuapp.com/',
-            gitRepo: 'https://github.com/fredkk22/Just-Another-Text-Editor/'
+            title: 'Work Day Scheduler',
+            projImgAlt: 'W.D.S Screenshot',
+            deployedLink: 'https://idakukimiya.github.io/humdrum_index/',
+            gitRepo: 'https://github.com/idakukimiya/humdrum_index'
         },
         {
-            title: 'Workday Scheduler',
-            projImgAlt: 'Git That Money Deployed App Homepage',
-            deployedLink: 'https://fredkk22.github.io/Workday-Scheduler/',
-            gitRepo: 'https://github.com/fredkk22/Workday-Scheduler/'
+            title: 'Ally Forum',
+            gitRepo: 'https://github.com/idakukimiya/ally_forum'
         },
         {
             title: 'Password Generator',
             projImgAlt: 'Password Generator Screenshot',
-            deployedLink: 'https://fredkk22.github.io/Password-Generator/',
-            gitRepo: 'https://github.com/fredkk22/Password-Generator'
+            deployedLink: 'https://idakukimiya.github.io/open-sesame/',
+            gitRepo: 'https://github.com/idakukimiya/open-sesame'
         },
     ]
 
@@ -52,21 +49,21 @@ export default function Project() {
                 <div className="row mb-5">
                     <div className="col">
                         <h2 className="allheaders">{projArray[0].title}</h2>
-                        <a href={projArray[0].deployedLink} target="blank"><img alt={projArray[0].projImgAlt} src={gitthatmoney} className="projImg img-fluid"></img></a>
+                        <a href={projArray[0].deployedLink} target="blank"><img alt={projArray[0].projImgAlt} src={GTC3} className="projImg img-fluid"></img></a>
                         <br />
-                        <a href={projArray[0].gitRepo}><button className="btn btn-primary">Git That Money Github Repository</button></a>
+                        <a href={projArray[0].gitRepo}><button className="btn btn-warning">For Project Info</button></a>
                     </div>
                     <div className="col">
                         <h3 className="allheaders">{projArray[1].title}</h3>
-                        <a href={projArray[1].deployedLink} target="blank"><img alt={projArray[1].projImgAlt} src={foodfreqs} className="projImg img-fluid"></img></a>
+                        <a href={projArray[1].deployedLink} target="blank"><img alt={projArray[1].projImgAlt} src={arthub} className="projImg img-fluid"></img></a>
                         <br />
-                        <a href={projArray[1].gitRepo}><button className="btn btn-primary">foodFREQs Github Repository</button></a>
+                        <a href={projArray[1].gitRepo}><button className="btn btn-danger">For Project Info</button></a>
                     </div>
                     <div className="col">
                         <h4 className="allheaders">{projArray[2].title}</h4>
-                        <a href={projArray[2].deployedLink} target="blank"><img alt={projArray[2].projImgAlt} src={thetechblog} className="projImg img-fluid"></img></a>
+                        <a href={projArray[2].deployedLink} target="blank"><img alt={projArray[2].projImgAlt} src={README} className="projImg img-fluid"></img></a>
                         <br />
-                        <a href={projArray[2].gitRepo}><button className="btn btn-primary">The Tech Blog Github Repository</button></a>
+                        <a href={projArray[2].gitRepo}><button className="btn btn-info">For Project Info</button></a>
                     </div>
                 </div>
             </div>
@@ -74,21 +71,21 @@ export default function Project() {
                 <div className="row my-5">
                     <div className="col">
                         <h5 className="allheaders">{projArray[3].title}</h5>
-                        <a href={projArray[3].deployedLink} target="blank"><img alt={projArray[3].projImgAlt} src={jate} className="projImg img-fluid"></img></a>
+                        <a href={projArray[3].deployedLink} target="blank"><img alt={projArray[3].projImgAlt} src={WDS} className="projImg img-fluid"></img></a>
                         <br />
-                        <a href={projArray[3].gitRepo}><button className="btn btn-primary">J.A.T.E. Github Repository</button></a>
+                        <a href={projArray[3].gitRepo}><button className="btn btn-primary">For Project Info</button></a>
                     </div>
                     <div className="col">
                         <h6 className="allheaders">{projArray[4].title}</h6>
-                        <a href={projArray[4].deployedLink} target="blank"><img alt={projArray[4].projImgAlt} src={workday} className="projImg img-fluid"></img></a>
+                        <a href={projArray[4].deployedLink} target="blank"><img alt={projArray[4].projImgAlt} src={allyform} className="projImg img-fluid"></img></a>
                         <br />
-                        <a href={projArray[4].gitRepo}><button className="btn btn-primary">Workday Scheduler Github Repository</button></a>
+                        <a href={projArray[4].gitRepo}><button className="btn btn-primary">For Project Info</button></a>
                     </div>
                     <div className="col">
                         <h7 className="allheaders">{projArray[5].title}</h7>
                         <a href={projArray[5].deployedLink} target="blank"><img alt={projArray[5].projImgAlt} src={pwgenerator} className="projImg img-fluid"></img></a>
                         <br />
-                        <a href={projArray[5].gitRepo}><button className="btn btn-primary">Password Generator Github Repository</button></a>
+                        <a href={projArray[5].gitRepo}><button className="btn btn-primary">For Project Info</button></a>
                     </div>
                 </div>
             </div>
