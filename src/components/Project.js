@@ -4,7 +4,7 @@ import arthub from './image/arthub.png';
 import README from './image/generator.jpg';
 import WDS from './image/WDS.png';
 import allyform from './image/contact.jpg';
-import pwgenerator from './images/pwgenerator.png';
+import pwgenerator from './image/pwgenerator.png';
 
 export default function Project() {
     const projArray = [
