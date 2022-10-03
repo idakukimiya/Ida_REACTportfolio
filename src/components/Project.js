@@ -21,9 +21,9 @@ export default function Project() {
             gitRepo: 'https://github.com/idakukimiya/arthub'
         },
         {
-            title: 'README Generator',
-            projImgAlt: 'README Generator Screenshot',
-            gitRepo: 'https://github.com/idakukimiya/README_generator'
+            title: 'pixel-battle',
+            projImgAlt: 'dungeon Screenshot',
+            gitRepo: 'https://github.com/idakukimiya/pixel-battle78'
         },
         {
             title: 'Work Day Scheduler',
