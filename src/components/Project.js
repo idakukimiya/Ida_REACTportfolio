@@ -1,10 +1,8 @@
 import React from 'react';
 import GTC3 from './image/GTC3.png';
 import arthub from './image/arthub.png';
-import README from './image/contact.jpg';
-import WDS from './image/WDS.png';
-import allyform from './image/contact.jpg';
-import pwgenerator from './image/pwgenerator.png';
+import comeSoon from './image/coming-soon.jpg';
+import pixel from './image/dungeon.png';
 
 export default function Project() {
     const projArray = [
@@ -26,20 +24,22 @@ export default function Project() {
             gitRepo: 'https://github.com/idakukimiya/pixel-battle78'
         },
         {
-            title: 'Work Day Scheduler',
-            projImgAlt: 'W.D.S Screenshot',
-            deployedLink: 'https://idakukimiya.github.io/humdrum_index/',
-            gitRepo: 'https://github.com/idakukimiya/humdrum_index'
+            title: 'Coming Soon',
+            projImgAlt: 'comeSoon Screenshot',
+            deployedLink: '#',
+            gitRepo: '#'
         },
         {
-            title: 'Ally Forum',
-            gitRepo: 'https://github.com/idakukimiya/ally_forum'
+            title: 'Coming Soon',
+            projImgAlt: 'comeSoon Screenshot',
+            deployedLink: '#',
+            gitRepo: '#'
         },
         {
-            title: 'Password Generator',
-            projImgAlt: 'Password Generator Screenshot',
-            deployedLink: 'https://idakukimiya.github.io/open-sesame/',
-            gitRepo: 'https://github.com/idakukimiya/open-sesame'
+            title: 'Comming Soon',
+            projImgAlt: 'comeSoon Screenshot',
+            deployedLink: '#',
+            gitRepo: '#'
         },
     ]
 
@@ -61,7 +61,7 @@ export default function Project() {
                     </div>
                     <div className="col">
                         <h4 className="allheaders">{projArray[2].title}</h4>
-                        <a href={projArray[2].deployedLink} target="blank"><img alt={projArray[2].projImgAlt} src={README} className="projImg img-fluid"></img></a>
+                        <a href={projArray[2].deployedLink} target="blank"><img alt={projArray[2].projImgAlt} src={pixel} className="projImg img-fluid"></img></a>
                         <br />
                         <a href={projArray[2].gitRepo}><button className="btn btn-info">For Project Info</button></a>
                     </div>
@@ -71,19 +71,19 @@ export default function Project() {
                 <div className="row my-5">
                     <div className="col">
                         <h5 className="allheaders">{projArray[3].title}</h5>
-                        <a href={projArray[3].deployedLink} target="blank"><img alt={projArray[3].projImgAlt} src={WDS} className="projImg img-fluid"></img></a>
+                        <a href={projArray[3].deployedLink} target="blank"><img alt={projArray[3].projImgAlt} src={comeSoon} className="projImg img-fluid"></img></a>
                         <br />
                         <a href={projArray[3].gitRepo}><button className="btn btn-success">For Project Info</button></a>
                     </div>
                     <div className="col">
                         <h6 className="allheaders">{projArray[4].title}</h6>
-                        <a href={projArray[4].deployedLink} target="blank"><img alt={projArray[4].projImgAlt} src={allyform} className="projImg img-fluid"></img></a>
+                        <a href={projArray[4].deployedLink} target="blank"><img alt={projArray[4].projImgAlt} src={comeSoon} className="projImg img-fluid"></img></a>
                         <br />
                         <a href={projArray[4].gitRepo}><button className="btn btn-secondary">For Project Info</button></a>
                     </div>
                     <div className="col">
                         <h7 className="allheaders">{projArray[5].title}</h7>
-                        <a href={projArray[5].deployedLink} target="blank"><img alt={projArray[5].projImgAlt} src={pwgenerator} className="projImg img-fluid"></img></a>
+                        <a href={projArray[5].deployedLink} target="blank"><img alt={projArray[5].projImgAlt} src={comeSoon} className="projImg img-fluid"></img></a>
                         <br />
                         <a href={projArray[5].gitRepo}><button className="btn btn-dark">For Project Info</button></a>
                     </div>
